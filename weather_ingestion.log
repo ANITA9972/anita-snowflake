@@ -1,0 +1,20 @@
+2025-12-12 11:28:18,730 - __main__ - INFO - Starting weather data ingestion...
+2025-12-12 11:28:18,731 - snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 4.1.1, Python Version: 3.13.9, Platform: Linux-6.14.0-36-generic-x86_64-with-glibc2.39
+2025-12-12 11:28:18,734 - snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+2025-12-12 11:28:21,744 - __main__ - WARNING - UTILS.CITIES table not found, using default cities
+2025-12-12 11:28:21,977 - __main__ - INFO - Processing 5 cities
+2025-12-12 11:28:22,336 - __main__ - INFO - ✅ API connection successful
+2025-12-12 11:28:22,338 - snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 4.1.1, Python Version: 3.13.9, Platform: Linux-6.14.0-36-generic-x86_64-with-glibc2.39
+2025-12-12 11:28:22,339 - snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+2025-12-12 11:28:23,664 - __main__ - INFO - Bronze table created/verified
+2025-12-12 11:28:23,664 - __main__ - INFO - Processing 1/5: New York
+2025-12-12 11:28:24,445 - __main__ - INFO - ✓ Successfully ingested data for New York
+2025-12-12 11:28:24,445 - __main__ - INFO - Processing 2/5: London
+2025-12-12 11:28:25,177 - __main__ - INFO - ✓ Successfully ingested data for London
+2025-12-12 11:28:25,177 - __main__ - INFO - Processing 3/5: Tokyo
+2025-12-12 11:28:25,918 - __main__ - INFO - ✓ Successfully ingested data for Tokyo
+2025-12-12 11:28:25,918 - __main__ - INFO - Processing 4/5: Paris
+2025-12-12 11:28:26,650 - __main__ - INFO - ✓ Successfully ingested data for Paris
+2025-12-12 11:28:26,650 - __main__ - INFO - Processing 5/5: Sydney
+2025-12-12 11:28:27,376 - __main__ - INFO - ✓ Successfully ingested data for Sydney
+2025-12-12 11:28:27,606 - __main__ - INFO - Ingestion completed: {'status': 'SUCCESS', 'cities_processed': 5, 'successful_inserts': 5, 'failed_inserts': 0}
