@@ -1,0 +1,11 @@
+2025-12-12 20:12:15,011 - snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 4.0.0, Python Version: 3.12.10, Platform: Windows-11-10.0.26200-SP0
+2025-12-12 20:12:15,013 - snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+2025-12-12 20:12:18,359 - __main__ - INFO - Starting simple transformation...
+2025-12-12 20:12:18,359 - snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 4.0.0, Python Version: 3.12.10, Platform: Windows-11-10.0.26200-SP0
+2025-12-12 20:12:18,361 - snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+2025-12-12 20:12:21,017 - __main__ - INFO - Silver table created/verified
+2025-12-12 20:12:21,019 - __main__ - INFO - Fetching data from bronze table...
+2025-12-12 20:12:21,192 - __main__ - INFO - Found 5 rows in bronze table
+2025-12-12 20:12:21,214 - __main__ - INFO - 5 rows after quality filtering
+2025-12-12 20:12:21,246 - __main__ - INFO - Writing 5 rows to SILVER.CURRENT_WEATHER_CLEANED
+2025-12-12 20:12:23,204 - __main__ - INFO - Transformation successful: {'status': 'SUCCESS', 'bronze_rows': 5, 'silver_rows': 5}

@@ -1,0 +1,14 @@
+2025-12-12 20:06:23,387 - __main__ - INFO - Starting weather data ingestion...
+2025-12-12 20:06:23,388 - snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 4.0.0, Python Version: 3.12.10, Platform: Windows-11-10.0.26200-SP0
+2025-12-12 20:06:23,388 - snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+2025-12-12 20:06:27,140 - __main__ - WARNING - UTILS.CITIES table not found, using default cities
+2025-12-12 20:06:27,429 - __main__ - INFO - Processing 5 cities
+2025-12-12 20:06:27,519 - snowflake.connector.connection - INFO - Snowflake Connector for Python Version: 4.0.0, Python Version: 3.12.10, Platform: Windows-11-10.0.26200-SP0
+2025-12-12 20:06:27,525 - snowflake.connector.connection - INFO - Connecting to GLOBAL Snowflake domain
+2025-12-12 20:06:30,260 - __main__ - INFO - Bronze table created/verified
+2025-12-12 20:06:30,261 - __main__ - INFO - Processing 1/5: New York
+2025-12-12 20:06:30,981 - __main__ - INFO - Processing 2/5: London
+2025-12-12 20:06:31,401 - __main__ - INFO - Processing 3/5: Tokyo
+2025-12-12 20:06:31,843 - __main__ - INFO - Processing 4/5: Paris
+2025-12-12 20:06:32,282 - __main__ - INFO - Processing 5/5: Sydney
+2025-12-12 20:06:32,782 - __main__ - INFO - Ingestion completed: {'status': 'SUCCESS', 'cities_processed': 5, 'successful_inserts': 5, 'failed_inserts': 0}

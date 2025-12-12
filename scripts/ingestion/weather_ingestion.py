@@ -22,7 +22,7 @@ class WeatherDataIngestion:
             'account': os.getenv('SNOWFLAKE_ACCOUNT'),
             'warehouse': os.getenv('SNOWFLAKE_WAREHOUSE'),
             'database': os.getenv('SNOWFLAKE_DATABASE'),
-            'schema': 'PUBLIC'
+            'schema': 'BRONZE'
         }
         
         # OpenWeatherMap API
